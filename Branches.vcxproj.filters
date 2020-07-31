@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>a58067a9-2051-493c-9b08-2ef9c91a89dd</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>c9fb1e5b-c0f0-4f9d-a3e8-6239ee144862</UniqueIdentifier>
+      <Extensions>bmp;fbx;gif;jpg;jpeg;tga;tiff;tif;png</Extensions>
+    </Filter>
+    <Filter Include="branches_core">
+      <UniqueIdentifier>{326e5101-3cb4-4aee-94dd-58d21b732320}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="branches_core\algebraNode">
+      <UniqueIdentifier>{bd588059-59fc-491d-858e-c038c8f51e44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="branches_core\exprNode">
+      <UniqueIdentifier>{0bddca12-1342-4ca7-99ba-d48bf061f40e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="branches_core\varNode">
+      <UniqueIdentifier>{4cd8a065-ea43-4cf2-aa45-5f64fb6f19a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="branches_core\funcNode">
+      <UniqueIdentifier>{555c4829-4689-4afc-bb19-15f2860fd1b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="branches_core\prefixNode">
+      <UniqueIdentifier>{78256a88-f162-4786-a706-00c72b00ed9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="branches_core\algebra_tools_">
+      <UniqueIdentifier>{60f2682c-cabe-4593-8f98-250aa70e002d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="branches_core\algebraParser">
+      <UniqueIdentifier>{a41177c8-267d-46d5-9d1c-9ae5c0affbdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="branches_core\vectorParser">
+      <UniqueIdentifier>{222bc94a-ffa5-4740-bb4d-2766420884f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="branches_core\DataTypes">
+      <UniqueIdentifier>{39f8ea66-ef41-49d4-9073-e6f87e73d33d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="branches_core\algebraNode\algebraNode.cpp">
+      <Filter>branches_core\algebraNode</Filter>
+    </ClCompile>
+    <ClCompile Include="branches_core\exprNode\exprNode.cpp">
+      <Filter>branches_core\exprNode</Filter>
+    </ClCompile>
+    <ClCompile Include="branches_core\varNode\varNode.cpp">
+      <Filter>branches_core\varNode</Filter>
+    </ClCompile>
+    <ClCompile Include="branches_core\funcNode\funcNode.cpp">
+      <Filter>branches_core\funcNode</Filter>
+    </ClCompile>
+    <ClCompile Include="branches_core\prefixNode\prefixNode.cpp">
+      <Filter>branches_core\prefixNode</Filter>
+    </ClCompile>
+    <ClCompile Include="branches_core\algebra_tools_\algebra_tools_.cpp">
+      <Filter>branches_core\algebra_tools_</Filter>
+    </ClCompile>
+    <ClCompile Include="branches_core\algebraParser\algebraParser.cpp">
+      <Filter>branches_core\algebraParser</Filter>
+    </ClCompile>
+    <ClCompile Include="branches_core\vectorParser\vectorParser.cpp">
+      <Filter>branches_core\vectorParser</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="branches_core\branches_core.h">
+      <Filter>branches_core</Filter>
+    </ClInclude>
+    <ClInclude Include="branches_core\algebraNode\algebraNode.h">
+      <Filter>branches_core\algebraNode</Filter>
+    </ClInclude>
+    <ClInclude Include="branches_core\exprNode\exprNode.h">
+      <Filter>branches_core\exprNode</Filter>
+    </ClInclude>
+    <ClInclude Include="branches_core\varNode\varNode.h">
+      <Filter>branches_core\varNode</Filter>
+    </ClInclude>
+    <ClInclude Include="branches_core\funcNode\funcNode.h">
+      <Filter>branches_core\funcNode</Filter>
+    </ClInclude>
+    <ClInclude Include="branches_core\prefixNode\prefixNode.h">
+      <Filter>branches_core\prefixNode</Filter>
+    </ClInclude>
+    <ClInclude Include="branches_core\algebra_tools_\algebra_tools_.h">
+      <Filter>branches_core\algebra_tools_</Filter>
+    </ClInclude>
+    <ClInclude Include="branches_core\algebra_tools_\exception.h">
+      <Filter>branches_core\algebra_tools_</Filter>
+    </ClInclude>
+    <ClInclude Include="branches_core\algebraParser\algebraParser.h">
+      <Filter>branches_core\algebraParser</Filter>
+    </ClInclude>
+    <ClInclude Include="branches_core\vectorParser\vectorParser.h">
+      <Filter>branches_core\vectorParser</Filter>
+    </ClInclude>
+    <ClInclude Include="branches_core\DataTypes\DataTypes.h">
+      <Filter>branches_core\DataTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="branches_core\DataTypes\mat.h">
+      <Filter>branches_core\DataTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="branches_core\DataTypes\vec.h">
+      <Filter>branches_core\DataTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\LockScreenLogo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Wide310x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="MainPage.xaml" />
+  </ItemGroup>
+</Project>
